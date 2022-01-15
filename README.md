@@ -1,5 +1,7 @@
 # DL based blocking for entity matching
 
+Entity Matching (EM) is the process of finding instances of data records associated with the same real-world entity. Comparison across all the records pairs leads to a quadratic matching complexity hence blocking is essential to group most probable pairs. The blocked set can then be passed for matching
+
 This project aims to perform blocking for entity matching using deep learning. It includes functionalities for transforming tuples into embeddings customized for blocking. This is a self-supervised approach and does not require any labeled data. We provide provides multiple instantiations for tuple embedding  and vector pairing for performing blocking. 
 
 # Original Code, Paper and Data
